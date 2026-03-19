@@ -5,6 +5,7 @@ const today = new Date();
 <footer>
 	<hr class="divider-single" />
 	<p>&copy; {today.getFullYear()} KI Post — Unabhängige KI-Berichterstattung für die Schweiz</p>
+	<p class="contact-link"><a href="mailto:admin@oliverwidmer.net">✉ Kontakt</a></p>
 </footer>
 <style>
 	footer {
@@ -12,6 +13,16 @@ const today = new Date();
 		text-align: center;
 		font-size: 0.85rem;
 		color: #666;
+	}
+	.contact-link {
+		margin-top: 0.4rem;
+	}
+	.contact-link a {
+		color: #8b0000;
+		text-decoration: none;
+	}
+	.contact-link a:hover {
+		text-decoration: underline;
 	}
 	.divider-single {
 		border: none;
