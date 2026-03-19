@@ -4,81 +4,166 @@ import type { CollectionEntry } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
-import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
 const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 ---
 
-<html lang="en">
+<html lang="de">
 	<head>
 		<BaseHead title={title} description={description} />
 		<style>
-			main {
-				width: calc(100% - 2em);
-				max-width: 100%;
-				margin: 0;
+			/* Mini masthead for articles */
+			.mini-masthead {
+				text-align: center;
+				padding: 1rem 0;
+				border-bottom: 1px solid #111;
+				margin-bottom: 2rem;
 			}
+			.mini-masthead a {
+				font-family: 'Playfair Display', Georgia, serif;
+				font-size: 2rem;
+				font-weight: 900;
+				color: #111;
+				text-decoration: none;
+			}
+			.mini-masthead a:hover {
+				color: #8b0000;
+			}
+
+			main {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: 0 auto;
+				padding: 0 1em;
+			}
+
 			.hero-image {
 				width: 100%;
+				margin-bottom: 2rem;
 			}
 			.hero-image img {
 				display: block;
 				margin: 0 auto;
-				border-radius: 12px;
-				box-shadow: var(--box-shadow);
+				width: 100%;
+				height: auto;
 			}
-			.prose {
-				width: 720px;
-				max-width: calc(100% - 2em);
-				margin: auto;
-				padding: 1em;
-				color: rgb(var(--gray-dark));
-			}
-			.title {
-				margin-bottom: 1em;
-				padding: 1em 0;
+
+			.article-header {
 				text-align: center;
-				line-height: 1;
+				margin-bottom: 2rem;
+				padding-bottom: 1.5rem;
+				border-bottom: 1px solid #ddd;
 			}
-			.title h1 {
-				margin: 0 0 0.5em 0;
+			.article-header h1 {
+				font-family: 'Playfair Display', Georgia, serif;
+				font-size: 2.8rem;
+				font-weight: 900;
+				line-height: 1.1;
+				margin: 0 0 1rem;
 			}
-			.date {
-				margin-bottom: 0.5em;
-				color: rgb(var(--gray));
+			.article-date {
+				font-size: 0.9rem;
+				color: #666;
+				text-transform: uppercase;
+				letter-spacing: 0.1em;
 			}
-			.last-updated-on {
+			.article-description {
 				font-style: italic;
+				font-size: 1.2rem;
+				color: #444;
+				margin-top: 1rem;
+			}
+
+			.prose {
+				font-family: 'Source Serif 4', Georgia, serif;
+				font-size: 1.1rem;
+				line-height: 1.8;
+				color: #222;
+			}
+			.prose p {
+				margin-bottom: 1.5em;
+			}
+			.prose h2 {
+				font-family: 'Playfair Display', Georgia, serif;
+				font-size: 1.8rem;
+				margin: 2rem 0 1rem;
+			}
+			.prose h3 {
+				font-family: 'Playfair Display', Georgia, serif;
+				font-size: 1.4rem;
+				margin: 1.5rem 0 0.8rem;
+			}
+			.prose ul, .prose ol {
+				margin: 1em 0;
+				padding-left: 1.5em;
+			}
+			.prose li {
+				margin-bottom: 0.5em;
+			}
+			.prose blockquote {
+				border-left: 3px solid #111;
+				padding-left: 1.5em;
+				margin: 1.5em 0;
+				font-style: italic;
+				color: #444;
+			}
+			.prose a {
+				color: #8b0000;
+				text-decoration: underline;
+			}
+			.prose a:hover {
+				color: #5c0000;
+			}
+
+			/* Back link */
+			.back-link {
+				display: inline-block;
+				margin-top: 2rem;
+				padding-top: 1rem;
+				border-top: 1px solid #ddd;
+				font-size: 0.9rem;
+				color: #666;
+			}
+			.back-link:hover {
+				color: #8b0000;
+			}
+
+			@media (max-width: 720px) {
+				.article-header h1 {
+					font-size: 2rem;
+				}
+				.prose {
+					font-size: 1rem;
+				}
 			}
 		</style>
 	</head>
 
 	<body>
-		<Header />
+		<header class="mini-masthead">
+			<a href="/">KI POST</a>
+		</header>
 		<main>
 			<article>
-				<div class="hero-image">
-					{heroImage && <Image width={1020} height={510} src={heroImage} alt="" />}
+				{heroImage && (
+					<div class="hero-image">
+						<Image width={1020} height={510} src={heroImage} alt="" />
+					</div>
+				)}
+				<div class="article-header">
+					<p class="article-date">
+						<FormattedDate date={pubDate} />
+						{updatedDate && <span> · Aktualisiert: <FormattedDate date={updatedDate} /></span>}
+					</p>
+					<h1>{title}</h1>
+					{description && <p class="article-description">{description}</p>}
 				</div>
 				<div class="prose">
-					<div class="title">
-						<div class="date">
-							<FormattedDate date={pubDate} />
-							{
-								updatedDate && (
-									<div class="last-updated-on">
-										Last updated on <FormattedDate date={updatedDate} />
-									</div>
-								)
-							}
-						</div>
-						<h1>{title}</h1>
-						<hr />
-					</div>
 					<slot />
 				</div>
+				<a href="/" class="back-link">← Zurück zur Startseite</a>
 			</article>
 		</main>
 		<Footer />

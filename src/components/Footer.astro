@@ -3,13 +3,19 @@ const today = new Date();
 ---
 
 <footer>
-	&copy; {today.getFullYear()} KI Post — KI-News für die Schweiz
+	<hr class="divider-single" />
+	<p>&copy; {today.getFullYear()} KI Post — Unabhängige KI-Berichterstattung für die Schweiz</p>
 </footer>
 <style>
 	footer {
-		padding: 2em 1em 4em 1em;
-		background: linear-gradient(var(--gray-gradient)) no-repeat;
-		color: rgb(var(--gray));
+		padding: 1rem 0 2rem;
 		text-align: center;
+		font-size: 0.85rem;
+		color: #666;
+	}
+	.divider-single {
+		border: none;
+		border-top: 1px solid #111;
+		margin: 0 0 1rem 0;
 	}
 </style>
