@@ -1,33 +1,33 @@
 ---
 title: '📡 KI-Newsticker — 20. März 2026'
-description: 'AMI Labs sammelt $1 Mrd., OpenAI GPT-5.4 Mini, Google Maps mit Gemini und Oracle investiert $50 Mrd. — die wichtigsten KI-Meldungen vom Freitag.'
+description: 'Microsoft klagt gegen OpenAI, NVIDIA schickt KI ins All, Anthropic drohen hunderte Millionen Strafe und Google Gemini wird 40% schneller.'
 pubDate: '2026-03-20'
 heroImage: ''
-tags: ['Newsticker', 'OpenAI', 'Google', 'Oracle', 'Yann LeCun', 'AMI Labs']
+tags: ['Newsticker', 'Microsoft', 'OpenAI', 'NVIDIA', 'Anthropic', 'Google']
 ---
 
 Die wichtigsten KI-Nachrichten vom Freitag, 20. März 2026 — kompakt zusammengefasst.
 
 ---
 
-**🚀 Yann LeCun: AMI Labs sammelt $1,03 Mrd. — grösste europäische Seed-Runde aller Zeiten**
-Der ehemalige Meta-Chef-Wissenschaftler hat mit AMI Labs die grösste Seed-Finanzierungsrunde Europas abgeschlossen. Das Unternehmen setzt auf sogenannte «World Models» (JEPA-Architektur), die LLMs bei der Verarbeitung realer Intelligenz übertreffen sollen — ein direkter Angriff auf die aktuelle Dominanz von OpenAI und Google.
+**⚔️ Eskalation: Microsoft bereitet Klage gegen OpenAI vor**
+Der Riss in der wichtigsten Allianz der KI-Welt wird tiefer: Microsoft bereitet laut Medienberichten offiziell rechtliche Schritte gegen OpenAI vor. Auslöser ist der 50-Milliarden-Dollar-Deal mit Amazon AWS für das neue Produkt «Frontier». Microsoft sieht darin eine Verletzung exklusiver Azure-Verträge — OpenAI kontert, dass Microsoft die benötigte Infrastruktur allein nicht stemmen könne.
 
 ---
 
-**🤖 OpenAI lanciert «GPT-5.4 Mini» für Agenten und Tool-Nutzung**
-OpenAI hat ein neues, speziell für hohe Volumen an Funktionsaufrufen und Agenten-Workflows optimiertes Modell veröffentlicht. Parallel dazu führt OpenAI modulare «Skills» ein, die autonome Workflow-Automatisierungen erheblich vereinfachen sollen.
+**🚀 NVIDIA Space-1: KI-Rechenzentren im Weltraum**
+Jensen Huang krönte die GTC-Woche mit einer Sensation: NVIDIA «Space-1». Die neue «Vera Rubin»-Architektur wird gemeinsam mit SpaceX in den Orbit geschickt. Orbitale Rechenzentren sollen Daten direkt im All verarbeiten — mit dem Ziel, die Latenz für globale KI-Anwendungen massiv zu senken und die natürliche Kälte des Weltraums zur Kühlung zu nutzen.
 
 ---
 
-**🗺️ Google Maps erhält «Ask Maps» — Gemini direkt in der Navigation**
-Google rollt eine tiefgreifende Gemini-Integration in Maps aus: Nutzer können komplexe, konversationsbasierte Suchanfragen stellen («Zeig mir Restaurants in der Nähe mit Terrasse, die jetzt geöffnet haben»). Zusätzlich wird die Navigation durch immersive 3D-Kontexte erweitert.
+**⚖️ Anthropic drohen hunderte Millionen: BMG veröffentlicht Klage-Details**
+Der Musikverlag BMG (Rolling Stones, Bruno Mars) hat Details seiner Klage gegen Anthropic veröffentlicht. Vorwurf: Liedtexte von über 500 Werken wurden ohne Lizenz für das Training von «Claude» verwendet. Bei der Höchststrafe von 150'000 Dollar pro Song drohen Anthropic bis zu 75 Millionen Dollar — ein existenzielles Risiko.
 
 ---
 
-**🏗️ Oracle investiert $50 Milliarden in KI-Infrastruktur**
-Um der explodierenden Nachfrage nach Rechenleistung gerecht zu werden, plant Oracle eine der grössten Einzelinvestitionen der Branche in neue Rechenzentren und KI-Cluster. Oracle positioniert sich damit als ernsthafter Konkurrent zu AWS, Azure und Google Cloud.
+**🏠 Google Gemini Home: 40% schneller dank On-Device-Architektur**
+Google hat ein grösseres Update für Gemini auf Smart Speakern und Displays ausgerollt. Durch eine neue On-Device-Architektur reagiert der Assistent bei Standard-Befehlen jetzt 40% schneller. Zudem versteht Gemini nun komplexe, verschachtelte Sätze mit mehreren Befehlen gleichzeitig.
 
 ---
 
-*Quellen: AI Funding Tracker, Medium/Daniel Quinteros, Google Blog, Crescendo AI*
+*Quellen: Reuters, NVIDIA GTC Keynote, Billboard, Google Blog*
