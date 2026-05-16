@@ -1,6 +1,6 @@
 ---
 title: '⚡ KI-Schlagzeilen — 16. April 2026'
-description: 'Snap streicht 1'000 Jobs wegen KI — und die Aktie steigt. Willkommen in der neuen Arbeitswelt.'
+description: "Snap streicht 1'000 Jobs wegen KI — und die Aktie steigt. Willkommen in der neuen Arbeitswelt."
 pubDate: '2026-04-16'
 heroImage: ''
 tags: ['Schlagzeilen']
