@@ -15,7 +15,7 @@ Papst Leo XIV fordert in seinem ersten grossen Manifest robuste Gesetze, unabhä
 
 ---
 
-**🕵️ Washington kauft Rechenmacht fuer Spione**
+**🕵️ Washington kauft Rechenmacht für Spione**
 Das Weisse Haus will rund 9 Milliarden Dollar für KI-Chips und Infrastruktur bei CIA und NSA freimachen. Wenn der Kongress zustimmt, bekommen die US-Geheimdienste mehr Power für moderne Modelle — KI wird damit noch direkter zum Werkzeug staatlicher Macht.
 
 ---
@@ -25,7 +25,7 @@ NVIDIA-Chef Jensen Huang sagt laut CNBC, der Konzern habe den fortgeschrittenen 
 
 ---
 
-**💸 Circle-Gruender baut KI-Bankagenten**
+**💸 Circle-Gründer baut KI-Bankagenten**
 Catena Labs, das neue Startup von Circle-Mitgründer Sean Neville, hat 30 Millionen Dollar eingesammelt. Die Firma will agentische KI in Finanz-Workflows bringen und sogar eine Banklizenz anstreben — aus Chatbots werden damit langsam Akteure im Geldsystem.
 
 ---
