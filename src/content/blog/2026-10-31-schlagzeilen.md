@@ -1,12 +1,12 @@
 ---
 title: '⚡ KI-Schlagzeilen — 31. Oktober 2026'
-description: 'Eine manipulierte Claude-Erweiterung öffnete Angreifern die Tür zu bis zu 5\u2019000 Entwickler-Rechnern.'
+description: "Eine manipulierte Claude-Erweiterung öffnete Angreifern die Tür zu bis zu 5'000 Entwickler-Rechnern."
 pubDate: '2026-10-31'
 heroImage: ''
 tags: ['Schlagzeilen']
 ---
 
-**CLAUDE-ALARM BEI CURSOR: Eine manipulierte Erweiterung schleuste eine SSH-Hintertür auf bis zu 5\u2019000 Entwickler-Rechner.**
+**CLAUDE-ALARM BEI CURSOR: Eine manipulierte Erweiterung schleuste eine SSH-Hintertür auf bis zu 5'000 Entwickler-Rechner.**
 
 ---
 
